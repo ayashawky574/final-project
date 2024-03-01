@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mainColor{
+  color: green;
+}
+.bgColor{
+  background-color: green;
+}
+.navbar-nav .nav-link:active{
+  color: green !important;
+  font-weight: bolder;
+  
+}
+button{
+  background-color: green;
+}
+.product .btn{
+  opacity: 0 !important;
+  transition: transform 1s , opacity 1s !important;
+  transform: translateY(100%);
+}
+.product:hover .btn {
+  opacity:1 !important ;
+  transform: translateY(0) !important;}
+  .ratingColor{
+    color: gold;
+  }
+  .product .btn:hover{
+  opacity:1 !important ;
+
+  }
